@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Custom Snackbar</string>
+    <string name="four_text">Password must have one Numeric Value\n"
+    "One Upper &amp; Lower Case Letters\n"
+    "One Special Character $ @ ! % * ? &amp;\n"
+    "NO Spaces in the PASSWORD"</string>
+    <string name="two_text">"\nPassword Max Length is 10 Characters\n\nPassword Min Length is 8 Characters"</string>
+    <string name="one_text">Incorrect Password</string>
+    <string name="action_text">To Send Money Click -></string>
+    <string name="snackbar_action">SEND</string>
+    <string name="btnP">	&lt;-</string>
+    <string name="btnN">	-&gt;</string>
+
+    <string name="real_csb_noaction_text">The Real Custom NO Action for 4 sec</string>
+    <string name="real_csb_text">This Guy is the Real Custom ONE</string>
+    <string name="real_csb_action">EXIT</string>
+
+    <string name="csb_text">I am NOT the Real Custom Snackbar</string>
+    <string name="csb_action">EXIT</string>
+    <string name="the_text">Password must have one Numeric Value\n"
+    "One Upper &amp; Lower Case Letters\n"
+    "One Special Character $ @ ! % * ? &amp;\n"
+    "NO Spaces in the PASSWORD"</string>
+    <!-- HINT KEEP THE HONKER ABOVE AT THE BOTTOM -->
+    <!-- FOR SEARCHES DURING DEVELOPMENT TO WORK SMOOTHLY -->
+
+</resources>

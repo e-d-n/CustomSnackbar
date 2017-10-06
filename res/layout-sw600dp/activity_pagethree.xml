@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_pagethree"
+    android:background="@color/color_lightGray"
+    tools:context="com.dwight.customsnackbar.PageThreeActivity">
+
+    <RelativeLayout
+        android:id="@+id/pagethreeRL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnRPSB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/color_super_lightGray"
+            android:onClick="onPLAIN"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="The Real Plain Snackbar"
+            android:textAllCaps="false"
+            android:textColor="@color/color_Purple"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnRASB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnRPSB"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/color_super_lightGray"
+            android:onClick="onWithAct"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="A Real Snackbar with Action Button"
+            android:textAllCaps="false"
+            android:textColor="@color/color_Purple"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/tvABOUT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="200dp"
+            android:text="ABOUT"
+            android:textColor="@color/color_Black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etAbout"
+            android:layout_width="480dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="250dp"
+            android:ems="10"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:inputType="textMultiLine|textNoSuggestions" />
+
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/USE_ME_TWICE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" >
+            <!-- android.support.design.widget.SnackBar -->
+
+            <!--stuff you want inside the coordinator ... -->
+        </android.support.design.widget.CoordinatorLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
